@@ -1,0 +1,52 @@
+import streamlit as st
+
+st.title("Covid-19 Vaccines")
+
+
+from PIL import Image
+image = Image.open('download.jpg')
+st.image(image,use_column_width=True)
+
+st.subheader("Final-stage trials of Covaxin begin in Bhubaneswar")
+st.text("Amid the race to develop a 'potential' vaccine against novel coronavirus pandemic,")
+st.text("India's first indigenously developed Covid-19 vaccine, Covaxin will commence its")
+st.text("Phase III clinical trials at a private hospital in Bhubaneswar soon, an official said.")
+st.text("The search for a suitable vaccine for Covid-19 has almost come to the final stage,")
+st.text("Dr E Venkata Rao, Principal Investigator in the Covaxin human trial and Professor")
+st.text("in the department of Community Medicine at the Institute of Medical Sciences and")
+st.text("SUM Hospital said on Sunday. Here are major updates on Covaxin, developed by the")
+st.text("Bharat Biotech in collaboration with the Indian Council of Medical Research (ICMR)")
+
+st.subheader("​Oxford-AstraZeneca vaccine")
+st.text("The vaccine produced by Oxford University and backed by the Pharmaceutical giant")
+st.text("AstraZeneca is undoubtedly one of the frontrunners in the race of producing a safe")
+st.text("and effective jab for COVID-19. The potential vaccine has been developed using a")
+st.text("weakened version of a common cold virus (adenovirus) and has been combined with")
+st.text("the genetic material of the spike protein of the SARS-CoV-2 virus. The vaccine")
+st.text("candidate which is being called ‘ChAdOx1 nCoV-19’ is currently in the middle of")
+st.text("the critical last-stage trials in the UK, Brazil and India. The British-Swedish")
+st.text("drugmaker had paused its last stage human trials briefly on September 6, after a")
+st.text("person who got dosed with the vaccine candidate developed a potentially unexplained")
+st.text("illness. As the trials soon resumed after a brief halt, after being given the go-ahead")
+st.text("by the UK's Medicines Health Regulatory Authority, the wait for a COVID-19 vaccine")
+st.text("may end sooner. According to media reports, the earliest doses of the vaccine")
+st.text("candidate may be expected to come into public circulation by year-end.")
+
+st.subheader("Moderna vaccine")
+st.text("The vaccine candidate, mRNA-1273 has been developed by Massachusetts-based")
+st.text("biotechnology company Moderna, and the National Institute of Allergy and")
+st.text("Infectious Diseases. The potential vaccine candidate is currently in its Phase")
+st.text("III trials and has shown to develop an effective immune response in all 45 volunteers")
+st.text("in its early stages of trials. The study did not witness any side-effects of the")
+st.text("vaccine candidate. The vaccine candidate mRNA-1273 which is being developed by Moderna")
+st.text("carries the mRNA strand of the spike protein of the novel coronavirus, which will then")
+st.text("be used by the human cells to produce the antigen required to fight the virus,")
+st.text("just by using the genetic information of a specific protein.")
+
+st.subheader("​Sinovac Biotech's CoronaVac")
+st.text("The vaccine candidate ‘CoronaVac’ which has been developed by Chinese drugmaker Sinovac")
+st.text("Biotech is currently in the process of conducting last stage trials. The Chinese company")
+st.text("had developed the inactivated vaccine against the novel coronavirus in January 2020 and")
+st.text("the results of early trials found no severe side-effects and an active immune response.")
+st.text("The company has been granted emergency use in China to vaccinate the people in the risk")
+st.text("category. This vaccine is made up of an inactivated version of the SARS-CoV-2 virus.")
